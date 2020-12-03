@@ -78,6 +78,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255,255,255,0.0);
     color: #ff0000;
+    user-select: none;
 }
 
 .background-struct {
