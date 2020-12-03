@@ -48,7 +48,24 @@ body {
     font: 'Noto Sans JP', sans-serif;
     font-size: 56px;
 }
-
+.subtitle {
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(150, 150, 150);
+}
+@media (max-width: 800px) {
+    .title {
+        font: 'Noto Sans JP', sans-serif;
+        font-size: 6vw;
+    }
+    .subtitle {
+        font-size: 3vw;
+    }
+    .top {
+        display: inline-block;
+        margin-top: 40vh;
+    }
+}
 .icon {
     position: absolute;
     top: -5px;
@@ -62,33 +79,19 @@ body {
     -webkit-text-fill-color: rgba(255,255,255,0.0);
     color: #ff0000;
 }
-.subtitle {
-    font-size: 22px;
-    margin-top: 20px;
-    color: rgb(150, 150, 150);
-}
 
 .background-struct {
     position: absolute;
     right: 120px;
     bottom: 40px;
     user-select: none;
-    color: #06aadb;
+    color: white;
+    opacity: 0.8;
 }
 
 .name:hover  {
     text-decoration: underline;
     cursor: pointer;
-}
-
-.title:after {
-    content: "";
-    height: 70px;
-    width: 2px;
-    margin-top: 10px;
-    position: absolute;
-    background:hsl(0, 0%, 92%);
-    animation: cursor 1s infinite;
 }
 
 @keyframes cursor {

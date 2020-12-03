@@ -1,2 +1,4 @@
-let animationStruct = document.getElementById("animation-struct")
-animationStruct.textContent = location.host + "/api?value=HelloWorld."
+let name = document.getElementById("name")
+name.onclick = function() {
+    document.getElementById("bubble").classList.toggle("none")
+}
