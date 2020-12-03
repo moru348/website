@@ -1,20 +1,18 @@
 .top {
-    height: 35vw;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 40vh;
 }
 .title {
-    color: white;
-    font-family: 'Noto Sans JP', sans-serif;
+    color:hsl(0, 0%, 92%);
     font-size: 60px;
     margin: 0;
-    letter-spacing: -0.2px;
-}
-.title span {
-    color: hsl(288, 100%, 60%);
+    letter-spacing: -2px;
 }
 
 body {
     margin: 0;
-    background-color: hsl(0, 0%, 13%);
+    background-color: hsl(0, 0%, 11%);
 }
 
 .menu {
@@ -46,10 +44,15 @@ body {
     transition: 0.4s;
 }
 
+.title {
+    font: 'Noto Sans JP', sans-serif;
+    font-size: 56px;
+}
+
 .icon {
     position: absolute;
     top: -5px;
-    right: 6px;
+    right: 8px;
     font-size: 65px;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
@@ -58,4 +61,41 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255,255,255,0.0);
     color: #ff0000;
+}
+.subtitle {
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(150, 150, 150);
+}
+
+.background-struct {
+    position: absolute;
+    right: 120px;
+    bottom: 40px;
+    user-select: none;
+    color: #06aadb;
+}
+
+.name:hover  {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.title:after {
+    content: "";
+    height: 70px;
+    width: 2px;
+    margin-top: 10px;
+    position: absolute;
+    background:hsl(0, 0%, 92%);
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

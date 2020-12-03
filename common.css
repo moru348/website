@@ -1,2 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@font-face {
+	font-family: 'jetbrainsmono-midium';
+	src: url('fonts/JetBrainsMono-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'jetbrainsmono-regular';
+	src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+h1 {
+    font-family: 'jetbrainsmono-midium';
+    margin: 0;
+}
+h2 {
+    font-family: 'jetbrainsmono-midium';
+}
+h3 {
+    font-family: 'jetbrainsmono-midium';
+}
+p {
+    font-family: 'jetbrainsmono-midium';
+    margin: 0;
+}
+a {
+    font-family: 'jetbrainsmono-midium';
+}
