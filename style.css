@@ -1,0 +1,61 @@
+.top {
+    height: 35vw;
+}
+.title {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: -0.2px;
+}
+.title span {
+    color: hsl(288, 100%, 60%);
+}
+
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 13%);
+}
+
+.menu {
+    background-color: rgb(12, 12, 12);
+    width: 75px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3px 0 3px 0;
+}
+.menu-button svg {
+    width: 60%;
+    fill: #505050;
+    transition: 0.4s;
+}
+
+.menu-button svg:hover {
+    fill: hsl(288, 100%, 60%);
+    transition: 0.4s;
+}
+
+.icon {
+    position: absolute;
+    top: -5px;
+    right: 6px;
+    font-size: 65px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    background: linear-gradient(110deg, rgb(147, 0, 184), hsl(288, 76%, 60%), hsl(305, 92%, 76%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0.0);
+    color: #ff0000;
+}
