@@ -48,7 +48,6 @@ if( ref.length != 0 ) {
 }
 var perfEntries = performance.getEntriesByType("navigation");
 perfEntries.forEach(function(pe){
-    console.log(pe)
     switch( pe.type ){
         case 'reload':
             titles = defaultTitles
