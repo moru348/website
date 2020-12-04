@@ -44,6 +44,8 @@ if( ref.length != 0 ) {
     if( ref.match( rExp ) ) {
         titles = ['<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'moru<span class="namethree" style="margin-left: 2px">3</span>\')</span>']
     }
+} else {
+    titles = ['<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'moru<span class="namethree" style="margin-left: 2px">3</span>\')</span>']
 }
 titles.forEach((ele, index) => {
     setTimeout(() => {
