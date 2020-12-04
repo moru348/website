@@ -1,7 +1,7 @@
 .top {
     display: inline-block;
     margin-left: 20%;
-    margin-top: 40vh;
+    margin-top: 38vh;
 }
 .title {
     color:hsl(0, 0%, 92%);
@@ -53,11 +53,6 @@ body {
     font: 'Noto Sans JP', sans-serif;
     font-size: 56px;
 }
-.subtitle {
-    font-size: 22px;
-    margin-top: 20px;
-    color: rgb(150, 150, 150);
-}
 .background-struct {
     position: absolute;
     right: 120px;
@@ -68,11 +63,6 @@ body {
     width: 30vw;
     white-space: nowrap;
     z-index: -10;
-}
-
-.background-struct p {
-    width: calc(30vw + 50px);
-    overflow: hidden;
 }
 
 .mcskin {
@@ -127,4 +117,70 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+.meter {
+    width: 60vw;
+    height: 10px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 800px;
+    margin-bottom: 16px;
+}
+
+.meter div {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, hsl(36, 100%, 51%), rgb(241, 82, 34));
+}
+
+.skills p {
+    color: white;
+}
+
+.skills {
+    margin-top: 60px;
+}
+
+@keyframes kj {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 68%;
+    }
+}
+
+@keyframes go {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 32%;
+    }
+}
+
+@keyframes hcj {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+    100% {
+        width: 80%;
+        opacity: 1;
+    }
+}
+
+#kj {
+    width: 0%;
+    animation: kj 1s forwards 0.4s;
+}
+#go {
+    width: 0%;
+    animation: go 1s forwards 0.8s;
+}
+#hcj {
+    width: 0%;
+    animation: hcj 1s forwards 0.2s;
 }
