@@ -184,3 +184,16 @@ body {
     width: 0%;
     animation: hcj 1s forwards 0.2s;
 }
+
+.fadein {
+    opacity: 0;
+    animation: fadein 1s forwards 0.2s;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

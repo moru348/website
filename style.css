@@ -128,3 +128,30 @@ body {
         opacity: 1;
     }
 }
+
+.namethree {
+    color: white;
+    animation: namethree 2s forwards 1s;
+}
+
+@keyframes namethree {
+    0% {
+        color: white;
+    }
+    100% {
+        color: hsl(288, 100%, 60%);
+    }
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadein 0.5s forwards 0.1s;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
