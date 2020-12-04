@@ -100,20 +100,26 @@ body {
 @media (max-width: 800px) {
     .title {
         font: 'Noto Sans JP', sans-serif;
-        font-size: 6vw;
+        font-size: min(56px, 10.5vw);
     }
     .subtitle {
-        font-size: 3vw;
+        font-size: min(22px, 4.5vw);
     }
     .top {
         display: inline-block;
-        margin-top: 40vh;
+        margin: 40vh 0 0 0;
+        width: 100%;
+        text-align: center;
     }
     .background-struct {
         display: none;
     }
     .mcskin {
-        display: none;
+        right: 0;
+        top: 75px;
+    }
+    .mcskin img {
+        height: 38vw;
     }
     .menu {
         width: 100%;
