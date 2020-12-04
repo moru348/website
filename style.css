@@ -31,7 +31,7 @@ body {
 .menu-button {
     display: inline-block;
     vertical-align: middle;
-    margin: 3px 0 3px 0;
+    margin: 8px 0 8px 0;
 }
 .menu-button svg {
     width: 60%;
@@ -40,6 +40,11 @@ body {
 }
 
 .menu-button svg:hover {
+    fill: hsl(288, 100%, 60%);
+    transition: 0.4s;
+}
+
+.selected svg {
     fill: hsl(288, 100%, 60%);
     transition: 0.4s;
 }
@@ -60,6 +65,9 @@ body {
     user-select: none;
     color: white;
     opacity: 0.8;
+    width: 30vw;
+    white-space: nowrap;
+    z-index: -10;
 }
 
 .mcskin {
@@ -95,7 +103,7 @@ body {
 .logo {
     position: absolute;
     top: 5px;
-    height: 50px;
+    width: 70px;
     text-decoration: none;
     color: #ff0000;
     cursor: pointer;
