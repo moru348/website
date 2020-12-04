@@ -131,7 +131,7 @@ body {
 
 .namethree {
     color: white;
-    animation: namethree 2s forwards 1s;
+    animation: namethree 1.2s forwards 0.8s;
 }
 
 @keyframes namethree {
