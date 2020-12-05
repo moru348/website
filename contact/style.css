@@ -1,0 +1,78 @@
+.meter {
+    width: 60vw;
+    height: 10px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 800px;
+    margin-bottom: 16px;
+}
+
+.meter div {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, hsl(36, 100%, 51%), rgb(241, 82, 34));
+}
+
+.skills p {
+    color: white;
+}
+
+.skills {
+    margin-top: 60px;
+}
+
+@keyframes kj {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 68%;
+    }
+}
+
+@keyframes go {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 32%;
+    }
+}
+
+@keyframes hcj {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+    100% {
+        width: 80%;
+        opacity: 1;
+    }
+}
+
+#kj {
+    width: 0%;
+    animation: kj 1s forwards 0.4s;
+}
+#go {
+    width: 0%;
+    animation: go 1s forwards 0.8s;
+}
+#hcj {
+    width: 0%;
+    animation: hcj 1s forwards 0.2s;
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadein 1s forwards 0.2s;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
