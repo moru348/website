@@ -4,11 +4,12 @@
     width: 50vw;
     min-width: 300px;
     max-width: 600px;
-    border-left: solid 5px #23272A;
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
     display: inline-block;
+    text-align: center;
+    margin-top: 80px;
 }
 .dicord div {
     display: inline-block;
@@ -16,6 +17,7 @@
 #discord_id {
     overflow: hidden;
     outline: none;
+    cursor: pointer;
 }
 .discord div p {
     color: #e7e7e7;
@@ -50,9 +52,6 @@
     width: 100%;
 }
 @media (max-width: 800px) {
-    .discord {
-        text-align: center;
-    }
     .discord div p img {
         display: inline-block;
         text-align: center;
