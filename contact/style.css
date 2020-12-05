@@ -1,78 +1,61 @@
-.meter {
-    width: 60vw;
-    height: 10px;
-    background-color: rgb(218, 218, 218);
-    border-radius: 5px;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+.discord {
+    background-color: #2C2F33;
+    width: 50vw;
+    min-width: 300px;
+    max-width: 600px;
+    border-left: solid 5px #23272A;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
     display: inline-block;
-    max-width: 800px;
-    margin-bottom: 16px;
+}
+.dicord div {
+    display: inline-block;
+}
+#discord_id {
+    overflow: hidden;
+    outline: none;
+}
+.discord div p {
+    color: #e7e7e7;
+    font-size: 40px;
+    margin: 26px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
 }
 
-.meter div {
-    height: 10px;
-    border-radius: 5px;
-    background: linear-gradient(90deg, hsl(36, 100%, 51%), rgb(241, 82, 34));
-}
-
-.skills p {
+#discord_id::selection {
+    background: #33a1eb85;
     color: white;
+    height: 40px;
 }
-
-.skills {
-    margin-top: 60px;
+#discord_id span::selection {
+    background: #33a1eb85;
+    color: white;
+    height: 40px;
 }
-
-@keyframes kj {
-    0% {
-        width: 0%;
+.discord div p img {
+    height: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.discord_name{
+    height: 40px;
+}
+.discord_name svg {
+    height: 40px;
+    background: #23272A;
+    width: 100%;
+}
+@media (max-width: 800px) {
+    .discord {
+        text-align: center;
     }
-    100% {
-        width: 68%;
-    }
-}
-
-@keyframes go {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 32%;
-    }
-}
-
-@keyframes hcj {
-    0% {
-        width: 0%;
-        opacity: 0;
-    }
-    100% {
-        width: 80%;
-        opacity: 1;
-    }
-}
-
-#kj {
-    width: 0%;
-    animation: kj 1s forwards 0.4s;
-}
-#go {
-    width: 0%;
-    animation: go 1s forwards 0.8s;
-}
-#hcj {
-    width: 0%;
-    animation: hcj 1s forwards 0.2s;
-}
-
-.fadein {
-    opacity: 0;
-    animation: fadein 1s forwards 0.2s;
-}
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
+    .discord div p img {
+        display: inline-block;
+        text-align: center;
+        margin: 0 30px 0 30px;
     }
 }
