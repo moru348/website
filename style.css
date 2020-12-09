@@ -196,7 +196,9 @@ body {
         display: block;
     }
 }
-
+.name {
+    text-decoration: none;
+}
 .name:hover  {
     text-decoration: underline;
     cursor: pointer;
