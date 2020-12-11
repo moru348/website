@@ -35,9 +35,7 @@ const defaultTitles = ["I",
 '<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'moru<span style="background: #4bb2f76e; color: white;margin-left: 2px">4</span>\')</span>',
 '<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'moru<span style="background: #4bb2f76e; color: white;margin-left: 2px">4</span>\')</span>',
 '<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'moru<span style="background: #4bb2f76e; color: white;margin-left: 2px">4</span>\')</span>',
-'<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'<span class="name" id="name" style="color: hsl(0, 0%, 92%);">moru<span style="padding-left: 2px">3</span></span>\')</span>',
-'<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'<span class="name" id="name" style="color: hsl(0, 0%, 92%);">moru<span style="padding-left: 1px">3</span></span>\')</span>',
-'<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'<a href="https://github.com/moru348" " target="_blank" rel="noopener noreferrer" class="name" id="name" style="color: hsl(0, 0%, 92%);">moru<span class="namethree" style="padding-left: 0px">3</span></a>\')</span>',
+'<span style="color: hsl(32, 88%, 51%)">Iam</span>(\'<a href="https://github.com/moru348" " target="_blank" rel="noopener noreferrer" id="name" style="color: hsl(0, 0%, 92%);text-decoration: none">moru<span class="namethree" style="padding-left: 2px">3</span></a>\')</span>',
 ];
 let titles = defaultTitles
 var ref = document.referrer;
